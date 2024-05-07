@@ -1,15 +1,15 @@
 # string functions
 
-# #       01234
-# name = "Aditi"
+#       01234
+name = "Aditi"
 
 # print(len(name))
 
 
 
-story = "once upon a time..."
-#        012345
-email = "avni@gmail.com"
+# story = "once upon a time..."
+# #        012345
+# email = "avni@gmail.com"
 
 #print(email.endswith("com"))
 
@@ -41,26 +41,48 @@ email = "avni@gmail.com"
 # \n - escape character for next line
 # \t - escape character for tab space
 
-story= "Once upon a time. \nThe python is a \tprogamming language"
+# story= "Once upon a time. \nThe python is a \tprogamming language"
 
-print(story)
-
-
-
-# Write a program to fill in a letter template given below with name and date
-
-letter = '''
-            Dear <|NAME|>
-                 You are selected!
-            <|DATE|> 
-        '''
+# print(story)
 
 
-# Write a program to detect double spaces in a string
-"this is a   string"
 
-# replace that double space with single space
+# # Write a program to fill in a letter template given below with name and date
 
-# Write a program to format the following letter using escape characters
+# letter = '''
+#             Dear <|NAME|>
+#                  You are selected!
+#             <|DATE|> 
+#         '''
 
-letter = "Dear Harry, this python course is nice. Thanks"
+
+# # Write a program to detect double spaces in a string
+# "this is a    string"
+
+# # replace that double space with single space
+
+#        0123456789
+# str = "this   is a string"
+
+# ans = str.find("  ")
+
+# print(ans)
+
+# ans1  = str.replace("   " , " ")
+
+# print(ans1)
+
+
+# # Write a program to format the following letter using escape characters
+
+letter = "Dear Harry, this python course is nice.Thanks"
+print(letter)
+
+print("------------------------------------------------------")
+letter = "Dear Harry,\n\tthis python course is nice.\nThanks"
+print(letter)
+
+# escape characters
+# \n - next line
+# \t - tab space
+

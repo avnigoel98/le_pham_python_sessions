@@ -53,10 +53,10 @@
 
 # indexing - locations
 
-#index  01234567891011
-# name = "Good Morning"
+# index  01234567891011
+name =  "Good Morning"
 
-# print(name[0:11:2])
+print(name[0:11:2])
 
 # slicing (start : end - 1: skipping factor)
 
